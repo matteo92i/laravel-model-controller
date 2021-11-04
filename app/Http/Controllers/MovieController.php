@@ -11,6 +11,8 @@ class MovieController extends Controller
     public function index(){
         $film = Movie::all();
 
+        dd($film);
+
     }
     
 }
